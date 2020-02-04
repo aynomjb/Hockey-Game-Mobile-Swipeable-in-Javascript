@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #game-canvas {
+            width: 320px;
+            height: 604px;
+            background: url('./img/hockey-bg.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+            margin: auto;
+            position: relative;
+            overflow: hidden;
+        }
+        #goal-keeper {
+            position: absolute;
+            bottom: 30px;
+            left: 10px;
+        }
+        #goal {
+            bottom: 0;
+            left: 39.5px;
+            position: absolute;
+            z-index: 2;
+        }
+        .ball {
+            position: absolute;
+            top: -40px;
+        }
+        #lives {
+            position: absolute;
+            top: 22px;
+            left: 92px;
+        }
+        #point {
+            position: absolute;
+            top: 20px;
+            right: 98px;
+            font-size: 18px;
+            color: #fff;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #lives img {
+            margin-right: 1px;
+        }
+    </style>
+    <script src="./js/main.js"></script>
+</head>
+<body>
+    <div id="game-canvas">
+        <div id="lives">
+        </div>
+        <div id="point">0</div>
+        <img src="./img/goal-keeper.png" alt="Goal keeper" id="goal-keeper" width="65" draggable="true">
+        <img src="./img/goal.png" alt="Goal" id="goal" width="241">
+      
+
+    </div>
+    <script>
+   
+
+
+    </script>
+</body>
+</html>
