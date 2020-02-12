@@ -11,3 +11,6 @@ window.addEventListener('DOMContentLoaded', () => {
 ```
 ### Run:
 Open the index.html in browser
+
+## Demo 
+https://aynomjb.github.io/Hockey-Game-Mobile-Swipeable-in-Javascript/
